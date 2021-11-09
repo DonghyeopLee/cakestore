@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
-    <link rel="stylesheet" href="Style.css">
+
+<link rel="stylesheet" href="Style.css">
 </head>
 <body>
     <div class="cart">
@@ -24,8 +25,8 @@
         </div>
         <h1>cake house</h1>
         <div div class="image1">
-            <img alt="Photo" src="images/CreamStrawberryCakes.jpg">
-        </div>
+        <img alt="Photo" src="images/CreamStrawberryCakes.jpg">
+    </div>
         <div class="content1">
             <h3>The Cake Shop</h3>
             <p>
@@ -35,11 +36,14 @@
                 
                 We also have a specially selected range of cost-effective quick cakes which are available for delivery or collection.
                 
-                Order a birthday, wedding or special occasion cake from our selection online or contact our shop on 01865 248691 to arrange a free consultation for a bespoke creation.</p>
-        </div>
-    </div>
+                Order a birthday, wedding or special occasion cake from our selection online or contact our shop on 01865 248691 to arrange a free consultation for a bespoke creation.
+</p>
+</div>
+</div>
 
-    <footer><p><a href="https://www.instagram.com/"><img alt="Photo" src="images/instagram_small.png"></a><a href="https://www.facebook.com/"><img alt="Photo" src="images/facebook_small.png"></a></p> <p>Privacy Policy: We collect and utilize the information that you provide to us voluntarily.</p><p>CopyRight Ⓒ</p></footer>
+
+<footer><p><a href="https://www.instagram.com/"><img alt="Photo" src="images/instagram_small.png"></a><a href="https://www.facebook.com/"><img alt="Photo" src="images/facebook_small.png"></a></p> <p>Privacy Policy: We collect and utilize the information that you provide to us voluntarily.</p><p>CopyRight Ⓒ</p></footer>
+
 
 </body>  
   
