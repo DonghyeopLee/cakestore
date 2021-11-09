@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="../ass/Style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">    
+            <a href="../ass/index.html" ><img alt="Photo" src="../ass/images/cakehouse.jfif"></a>
+        </div>    
+        <div class="nav">
+            <ul>
+                <li><a href="../ass/index.html">Home</a></li>
+                <li><a href="../ass/seecakes.php">Cakes</a></li>
+                <li><a href="../ass/about.html">About</a></li>
+                <li><a href="../ass/topiclist.php">Review</a></li>
+                <li><a href="../ass/contactUs.html">Contact Us</a> </li>
+            </ul>
+        </div>
+        <h1>cake house</h1>
+        
+    
+    <form method="post" action="addtopic_db.php">
+        <fieldset>
+        <p><label for="topic_owner">Name:</label>
+        <input type="text"id="topic_owner" name="topic_owner" size="40" maxlength="150" required=”required” /></p><br/>
+        <p><label for="topic_title">Review Title:</label>
+        <input type="text" id="topic_title" name="topic_title" size="40" maxlength="150" required=”required” /></p><br/>
+        <p><label for="post_text">Post Text:</label>
+        <textarea id="post_text" name="post_text" rows="8" cols="40" ></textarea>
+        </p>
+        <button type="submit" name="submit" value="submit">Add Topic</button>
+    </fieldset>
+    </form>
+</div>
+
+    <footer><p><a href="https://www.instagram.com/"><img alt="Photo" src="../ass/images/instagram_small.png"></a><a href="https://www.facebook.com/"><img alt="Photo" src="../ass/images/facebook_small.png"></a></p> <p>Privacy Policy: We collect and utilize the information that you provide to us voluntarily.</p><p>CopyRight Ⓒ</p></footer>
+
+</body>  
+  
+</html>
